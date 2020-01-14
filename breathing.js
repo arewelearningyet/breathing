@@ -96,8 +96,8 @@ function saveSettings() {
     }
     if (numberNodes[i].value < 2 && i % 2 == 0)
       numberNodes[i].value = 2
-    if (numberNodes[i].value > 10)
-      numberNodes[i].value = 10
+    if (numberNodes[i].value > 15)
+      numberNodes[i].value = 15
   }
 
   for (let i = 0; i < 4; i++) {
